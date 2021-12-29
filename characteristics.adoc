@@ -23,12 +23,16 @@ Use below sources as inspiration when searching for the characterictics of your 
 
 == Characteristics library
 
+'''
 === Accessibility
 
+'''
 === Adaptability
 
+'''
 === Accountability
 
+'''
 === Availability
 
 How much downtime is acceptable?
@@ -61,6 +65,7 @@ Do you have multiple tenants in the system that require different level of avail
 * https://sre.google/sre-book/service-level-objectives/[Service Level Objectives]
 * https://cloud.google.com/blog/products/devops-sre/sre-fundamentals-sli-vs-slo-vs-sla[SRE fundamentals 2021: SLIs vs SLAs vs SLOs]
 
+'''
 === Capacity
 
 How much traffic does your system need to support? How many users/calls/gigabytes of data?
@@ -70,12 +75,14 @@ How much traffic does your system need to support? How many users/calls/gigabyte
 * <<Scalability>>
 * <<Elasticity>>
 
+'''
 === Co-existence
 
 *Related characteristics:*
 
 * <<Compatibility>>
 
+'''
 === Compatibility
 
 *Related characteristics:*
@@ -84,26 +91,35 @@ How much traffic does your system need to support? How many users/calls/gigabyte
 * <<Co-existence>>
 * <<Portability>>
 
+'''
 === Compliance
 
+'''
 === Concurrency
 
+'''
 === Confidentiality
 
+'''
 === Configurability
 
+'''
 === Continuity
 
+'''
 === Deployability
 
+'''
 === Durability
 
 *Related characteristics:*
 
 * <<Resilience>>
 
+'''
 === Ease of integration
 
+'''
 === Elasticity
 
 *Related characteristics:*
@@ -111,60 +127,76 @@ How much traffic does your system need to support? How many users/calls/gigabyte
 * <<Capacity>>
 * <<Scalability>>
 
+'''
 === Evolvability
 
+'''
 === Extensibility
 
+'''
 === Fault tolerance
 
 *Related characteristics:*
 
 * <<Availability>>
 
+'''
 === Feasibility
 
+'''
 === Integrity
 
+'''
 === Interoperability
 
 *Related characteristics:*
 
 * <<Compatibility>>
 
+'''
 === Latency
 
+'''
 === Legal
 
 *Related characteristics:*
 
 * <<Availability>>
 
+'''
 === Localization
 
+'''
 === Modifiability
 
+'''
 === Non-repudiation
 
 *Related characteristics:*
 
 * <<Repudiation>>
 
+'''
 === Performance
 
+'''
 === Portability
 
 *Related characteristics:*
 
 * <<Compatibility>>
 
+'''
 === Privacy
 
+'''
 === Recoverability
 
 *Related characteristics:*
 
 * <<Availability>>
 
+'''
 === Reliability
 
 *Related characteristics:*
@@ -175,26 +207,31 @@ How much traffic does your system need to support? How many users/calls/gigabyte
 
 * https://www.engadget.com/2015-05-01-boeing-787-dreamliner-software-bug.html[To keep a Boeing Dreamliner flying, reboot once every 248 days]
 
+'''
 === Repudiation
 
 *Related characteristics:*
 
 * <<Non-repudiation>>
 
+'''
 === Resilience
 
 *Related characteristics:*
 
 * <<Durability>>
 
+'''
 === Robustness
 
 *Related characteristics:*
 
 * <<Availability>>
 
+'''
 === Safety
 
+'''
 === Scalability
 
 *Related characteristics:*
@@ -202,10 +239,14 @@ How much traffic does your system need to support? How many users/calls/gigabyte
 * <<Capacity>>
 * <<Elasticity>>
 
+'''
 === Security
 
+'''
 === Testability
 
+'''
 === Throughput
 
+'''
 === Usability
