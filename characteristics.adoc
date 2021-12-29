@@ -1,0 +1,52 @@
+= Architecture characteristics
+
+:toc: macro
+:toclevels: 2
+
+toc::[]
+
+:chapter-label:
+
+== External sources
+
+Use below sources as inspiration when searching for the characterictics of your system.
+
+[cols=2*]
+|===
+|ISO/IEC 25010:2011
+|https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en (chapter 4.2 Product quality model).
+
+|"Fundamentals of Software Architecture" by By Mark Richards, Neal Ford
+|https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/ch04.xhtml#idm46005305830088
+
+|===
+
+== Library
+
+Definitions and comments about commonly used architecture characterictics.
+Feel free to copy-paste into your system's description.
+
+[cols=2*]
+|===
+|Availability
+|
+
+|Ease of integration
+|
+
+|Interoperability
+|
+
+|Latency
+|
+
+|Performance
+|
+
+|Reliability
+|
+
+|Scalability
+|
+
+|===
