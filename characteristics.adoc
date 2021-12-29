@@ -1,0 +1,259 @@
+= Architecture characteristics
+
+:toc: macro
+:toclevels: 3
+
+toc::[]
+
+:chapter-label:
+
+== External sources
+
+Use below sources as inspiration when searching for the characterictics of your system.
+
+[cols=2*]
+|===
+|ISO/IEC 25010:2011
+|https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en (chapter 4.2 Product quality model).
+
+|"Fundamentals of Software Architecture" by By Mark Richards, Neal Ford
+|https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/ch04.xhtml#idm46005305830088
+
+|===
+
+== Characteristics library
+
+'''
+=== Accessibility
+
+'''
+=== Adaptability
+
+'''
+=== Accountability
+
+'''
+=== Availability
+
+How much downtime is acceptable?
+
+99.9% - 10m 4s per week +
+99.99% - 4m 22s per month +
+99.999% - 5m 15s per year
+
+Can you handle incidents manually or do you need automated way to bring your system back to life?
+
+Does your system depend on other systems, and what is their availability?
+
+What "available" means for the users of your system?
+
+Can you afford to have planned downtime?
+
+Do you have multiple tenants in the system that require different level of availability?
+
+*Related characteristics:*
+
+* <<Legal>> - Do you have legal requirements about availability?
+* <<Fault tolerance>> - For high availability you may need the system to be operational even if something fails.
+* <<Recoverability>> - For high availability you probably need the system to recover itself after a failure.
+* <<Reliability>> - For high availability you usually need high reliability.
+* <<Robustness>> - If the system erodes with time, the high availability may be harder and harder to achieve.
+
+*See also*
+
+* https://uptime.is
+* https://sre.google/sre-book/service-level-objectives/[Service Level Objectives]
+* https://cloud.google.com/blog/products/devops-sre/sre-fundamentals-sli-vs-slo-vs-sla[SRE fundamentals 2021: SLIs vs SLAs vs SLOs]
+
+'''
+=== Capacity
+
+How much traffic does your system need to support? How many users/calls/gigabytes of data?
+
+*Related characteristics:*
+
+* <<Scalability>>
+* <<Elasticity>>
+
+'''
+=== Co-existence
+
+*Related characteristics:*
+
+* <<Compatibility>>
+
+'''
+=== Compatibility
+
+*Related characteristics:*
+
+* <<Interoperability>>
+* <<Co-existence>>
+* <<Portability>>
+
+'''
+=== Compliance
+
+'''
+=== Concurrency
+
+'''
+=== Confidentiality
+
+'''
+=== Configurability
+
+'''
+=== Continuity
+
+'''
+=== Deployability
+
+'''
+=== Durability
+
+*Related characteristics:*
+
+* <<Resilience>>
+
+'''
+=== Ease of integration
+
+'''
+=== Elasticity
+
+*Related characteristics:*
+
+* <<Capacity>>
+* <<Scalability>>
+
+'''
+=== Evolvability
+
+'''
+=== Extensibility
+
+'''
+=== Fault tolerance
+
+*Related characteristics:*
+
+* <<Availability>>
+
+'''
+=== Feasibility
+
+'''
+=== Integrity
+
+'''
+=== Interoperability
+
+*Related characteristics:*
+
+* <<Compatibility>>
+
+'''
+=== Latency
+
+'''
+=== Legal
+
+*Related characteristics:*
+
+* <<Availability>>
+
+'''
+=== Localization
+
+'''
+=== Modifiability
+
+'''
+=== Non-repudiation
+
+*Related characteristics:*
+
+* <<Repudiation>>
+
+'''
+=== Performance
+
+'''
+=== Portability
+
+*Related characteristics:*
+
+* <<Compatibility>>
+
+'''
+=== Privacy
+
+'''
+=== Recoverability
+
+*Related characteristics:*
+
+* <<Availability>>
+
+'''
+=== Reliability
+
+*Related characteristics:*
+
+* <<Availability>>
+
+*See also:*
+
+* https://www.engadget.com/2015-05-01-boeing-787-dreamliner-software-bug.html[To keep a Boeing Dreamliner flying, reboot once every 248 days]
+
+'''
+=== Repudiation
+
+*Related characteristics:*
+
+* <<Non-repudiation>>
+
+'''
+=== Resilience
+
+*Related characteristics:*
+
+* <<Durability>>
+
+'''
+=== Robustness
+
+*Related characteristics:*
+
+* <<Availability>>
+
+'''
+=== Safety
+
+Does your system affect people's lives or large amounts of money?
+If it fails, can someone be hurt?
+
+'''
+=== Scalability
+
+Does your system's capacity need to grow or shrink?
+Does it happen periodically in time, daily, weekly, monthly, yearly?
+Does it happen randomly in unpredictable moments?
+
+*Related characteristics:*
+
+* <<Capacity>> - Scalability is usually defined in terms of changes in system's capacity.
+* <<Elasticity>> - If the amount of scaling is huge and unpredictable, maybe you need elasticity.
+
+'''
+=== Security
+
+'''
+=== Testability
+
+'''
+=== Throughput
+
+'''
+=== Usability
