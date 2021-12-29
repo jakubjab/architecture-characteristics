@@ -231,13 +231,20 @@ How much traffic does your system need to support? How many users/calls/gigabyte
 '''
 === Safety
 
+Does your system affect people's lives or large amounts of money?
+If it fails, can someone be hurt?
+
 '''
 === Scalability
 
+Does your system's capacity need to grow or shrink?
+Does it happen periodically in time, daily, weekly, monthly, yearly?
+Does it happen randomly in unpredictable moments?
+
 *Related characteristics:*
 
-* <<Capacity>>
-* <<Elasticity>>
+* <<Capacity>> - Scalability is usually defined in terms of changes in system's capacity.
+* <<Elasticity>> - If the amount of scaling is huge and unpredictable, maybe you need elasticity.
 
 '''
 === Security
