@@ -13,15 +13,8 @@ Published from https://github.com/JakubJablonski2-TomTom/architecture-characteri
 
 Use below sources as inspiration when searching for the characterictics of your system.
 
-[cols=2*]
-|===
-|ISO/IEC 25010:2011
-|https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en (chapter 4.2 Product quality model).
-
-|"Fundamentals of Software Architecture" by By Mark Richards, Neal Ford
-|https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/ch04.xhtml#idm46005305830088
-
-|===
+* https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en[ISO/IEC 25010:2011] (chapter 4.2 Product quality model).
+* https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/ch04.xhtml#idm46005305830088[Fundamentals of Software Architecture] by By Mark Richards, Neal Ford (chapter 4)
 
 == Characteristics library
 
@@ -70,7 +63,8 @@ Do you have multiple tenants in the system that require different level of avail
 '''
 === Capacity
 
-How much traffic does your system need to support? How many users/calls/gigabytes of data?
+How much traffic does your system need to support?
+How many users/calls/gigabytes of data?
 
 *Related characteristics:*
 
