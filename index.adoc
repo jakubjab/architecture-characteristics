@@ -116,6 +116,16 @@ Are there any standards, laws or regulations that you need to follow, either fro
 '''
 === Confidentiality
 
+Does your system store or process personal data that only owners should have access to?
+Does your system store or process sensitive data that can be used against people if made available for unauthorized parties?
+
+*Related characteristics:*
+
+* <<Legal>> - Are there any legal rules to keep data confidential?
+Do you operate your system in Europe and need to follow GDPR, or similar regulations in other places?
+* <<Security>> - More general term for <<Confidentiality>>, <<Integrity>> and other related characteristics.
+* <<Integrity>> - Does your system need to keep data intact, not only secret?
+
 '''
 === Configurability
 
@@ -162,6 +172,12 @@ Are there any standards, laws or regulations that you need to follow, either fro
 '''
 === Integrity
 
+Does your system need to keep the data intact, so that user know it's genuine and hasn't been tampered with?
+
+*Related characteristics:*
+
+* <<Confidentiality>> - Do you need to keep the data secret, or maybe only intact?
+
 '''
 === Interoperability
 
@@ -180,6 +196,7 @@ Are there any standards, laws or regulations that you need to follow, either fro
 * <<Accessibility>> - Do you have legal requirements for accessibility in the countries where your system works?
 * <<Availability>>
 * <<Compliance>>
+* <<Confidentiality>>
 
 '''
 === Localization
@@ -266,6 +283,10 @@ Does it happen randomly in unpredictable moments?
 
 '''
 === Security
+
+*Related characteristics:*
+
+* <<Confidentiality>>
 
 '''
 === Testability
