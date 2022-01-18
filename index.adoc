@@ -90,6 +90,12 @@ How many users/calls/gigabytes of data?
 '''
 === Compliance
 
+Are there any standards, laws or regulations that you need to follow, either from the industry or from standarization bodies?
+
+*Related characteristics:*
+
+* <<Legal>>
+
 '''
 === Concurrency
 
@@ -158,6 +164,7 @@ How many users/calls/gigabytes of data?
 *Related characteristics:*
 
 * <<Availability>>
+* <<Compliance>>
 
 '''
 === Localization
