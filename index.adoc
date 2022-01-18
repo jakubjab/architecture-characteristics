@@ -21,6 +21,19 @@ Use below sources as inspiration when searching for the characterictics of your 
 '''
 === Accessibility
 
+Does your system need to consider users with a wide range of disabilities?
+
+For example:
+
+* Colorblindness
+* Hearing loss
+* Disabilities associated with age
+
+*Related characteristics:*
+
+* <<Legal>> - Do you have legal requirements for accessibility in the countries where your system works?
+* <<Compliance>> - Do you have rules or regulations that you need to comply with?
+
 '''
 === Adaptability
 
@@ -95,6 +108,7 @@ Are there any standards, laws or regulations that you need to follow, either fro
 *Related characteristics:*
 
 * <<Legal>>
+* <<Accessibility>> - Do you have rules or regulations that you need to comply with?
 
 '''
 === Concurrency
@@ -163,6 +177,7 @@ Are there any standards, laws or regulations that you need to follow, either fro
 
 *Related characteristics:*
 
+* <<Accessibility>> - Do you have legal requirements for accessibility in the countries where your system works?
 * <<Availability>>
 * <<Compliance>>
 
