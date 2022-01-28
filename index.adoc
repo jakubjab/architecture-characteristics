@@ -81,8 +81,8 @@ How many users/calls/gigabytes of data?
 
 *Related characteristics:*
 
-* <<Scalability>>
-* <<Elasticity>>
+* <<Scalability>> - if the capacity of your system needs to grow or shrink, automatically or manually
+* <<Elasticity>> - if the capacity of your system needs to grow and shrink rapidly and automatically
 
 '''
 === Co-existence
@@ -147,6 +147,9 @@ Do you operate your system in Europe and need to follow GDPR, or similar regulat
 
 '''
 === Elasticity
+
+Does the capacity of your system need to grow and shrink rapidly and automatically?
+If there is a breaking news related to your domain, do you need to handle the sudden peak in your system?
 
 *Related characteristics:*
 
