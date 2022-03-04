@@ -14,7 +14,7 @@ Published from https://github.com/JakubJablonski2-TomTom/architecture-characteri
 Use below sources as inspiration when searching for the characterictics of your system.
 
 * https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en[ISO/IEC 25010:2011] (chapter 4.2 Product quality model).
-* https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/ch04.xhtml#idm46005305830088[Fundamentals of Software Architecture] by By Mark Richards, Neal Ford (chapter 4)
+* https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/ch04.html[Fundamentals of Software Architecture] by By Mark Richards, Neal Ford (chapter 4)
 
 == Characteristics library
 
@@ -107,8 +107,9 @@ Are there any standards, laws or regulations that you need to follow, either fro
 
 *Related characteristics:*
 
-* <<Legal>>
 * <<Accessibility>> - Do you have rules or regulations that you need to comply with?
+* <<Legal>>
+* <<Security>> - Are there security rules or regulations that you need to comply with?
 
 '''
 === Concurrency
@@ -272,6 +273,10 @@ Does your system need to keep the data intact, so that user know it's genuine an
 Does your system affect people's lives or large amounts of money?
 If it fails, can someone be hurt?
 
+*Related characteristics:*
+
+* <<Security>>
+
 '''
 === Scalability
 
@@ -287,12 +292,20 @@ Does it happen randomly in unpredictable moments?
 '''
 === Security
 
+Should the access to your system be limited to authorized users?
+Does your system need to protect the data at rest and in transit?
+Can your system rely on external systems to protect the data on its behalf?
+
 *Related characteristics:*
 
-* <<Confidentiality>>
+* <<Compliance>> - Are there any security standards your system needs to meet?
+* <<Confidentiality>> - Part of Security.
+* <<Safety>>
 
 '''
 === Testability
+
+
 
 '''
 === Throughput
