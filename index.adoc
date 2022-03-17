@@ -37,6 +37,15 @@ For example:
 '''
 === Adaptability
 
+Does your system need to adapt to:
+
+* different hardware
+* different screen sizes
+* different operating systems
+* different public cloud providers?
+
+Does your system need to adapt automatically, by human operator, by the user?
+
 '''
 === Accountability
 
