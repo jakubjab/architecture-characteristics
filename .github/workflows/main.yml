@@ -7,6 +7,7 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,7 +20,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-      
+
     # Includes the AsciiDoctor GitHub Pages Action to convert adoc files to html and publish to gh-pages branch
     - name: asciidoctor-ghpages
       uses: manoelcampos/asciidoctor-ghpages-action@v2
