@@ -37,6 +37,15 @@ For example:
 '''
 === Adaptability
 
+Does your system need to adapt to:
+
+* different hardware
+* different screen sizes
+* different operating systems
+* different public cloud providers?
+
+Does your system need to adapt automatically, by human operator, by the user?
+
 '''
 === Accountability
 
@@ -108,6 +117,7 @@ Are there any standards, laws or regulations that you need to follow, either fro
 *Related characteristics:*
 
 * <<Accessibility>> - Do you have rules or regulations that you need to comply with?
+* <<Configurability>> - Do you have rules, regulations or industry standards that you need to comply with?
 * <<Legal>>
 * <<Security>> - Are there security rules or regulations that you need to comply with?
 
@@ -129,6 +139,22 @@ Do you operate your system in Europe and need to follow GDPR, or similar regulat
 
 '''
 === Configurability
+
+Does your system need to be configurable in any way?
+
+Who is expected to configure it:
+
+* final user;
+* operator on the client side;
+* developers?
+
+Is the configuration done in the runtime, in deployment time, in build time?
+
+If the configuration is changed in runtime, when does it become effective? Immediately, after restart?
+
+*Related characteristics:*
+
+* <<Compliance>> - Are there any configuration standards your system needs to follow? SNMP, CLI, HTTP?
 
 '''
 === Continuity
