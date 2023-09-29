@@ -7,7 +7,7 @@ toc::[]
 
 :chapter-label:
 
-Published from https://github.com/JakubJablonski2-TomTom/architecture-characteristics.
+Published from https://github.com/jakubjab/architecture-characteristics.
 
 == External sources
 
