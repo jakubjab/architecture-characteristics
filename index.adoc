@@ -178,6 +178,8 @@ If the configuration is changed in runtime, when does it become effective? Immed
 Does the capacity of your system need to grow and shrink rapidly and automatically?
 If there is a breaking news related to your domain, do you need to handle the sudden peak in your system?
 
+Note: in Kubernetes world scaling the cluster to more nodes is also known as "elasticity".
+
 *Related characteristics:*
 
 * <<Capacity>>
